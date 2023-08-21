@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/2f671c2a32.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .contact-nav {
+            height: 80px;
+            width: 100%;
+            background: #34495e;
+        }
+
+        .logo {
+            font-size: 35px;
+            font-weight: bold;
+            color: #fff;
+            padding: 0 100px;
+            line-height: 80px;
+        }
+
+        .contact-nav ul {
+            float: right;
+            margin-right: 40px;
+            
+        }
+
+        .contact-nav li {
+            display: inline-block;
+            margin: 0 8px;
+            line-height: 80px;
+            
+        }
+
+        .contact-nav a {
+            color: #fff;
+            font-size: 18px;
+            text-transform: uppercase;
+            border: 1px solid transparent;
+            padding: 7px 10px;
+            border-radius: 3px;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        a.active,
+        a:hover {
+            border: 1px solid white;
+            transition: .5s;
+        }
+
+        .contact-nav #icon {
+            color: #fff;
+            font-size: 30px;
+            line-height: 80px;
+            float: right;
+            margin-right: 40px;
+            margin-right: 40px;
+            cursor: pointer;
+            display: none;
+        }
+
+
+        @media (max-width: 1048px) {
+            .logo {
+                font-size: 32px;
+                padding-left: 60px;
+            }
+
+            .contact-nav ul {
+                margin-right: 20px;
+            }
+
+            .contact-nav a {
+                font-size: 17px;
+            }
+        }
+
+        @media (max-width: 909px) {
+            .contact-nav #icon {
+                display: block;
+            }
+
+            .contact-nav ul {
+                position: fixed;
+                width: 100%;
+                height: 100vh;
+                background: #2f3640;
+                top: 70px;
+                left: -100%;
+                text-align: center;
+                transition: all .5s;
+            } 
+
+            .contact-nav li {
+                display: block;
+                margin: 50px 0;
+                line-height: 30px;
+            }
+
+            .contact-nav a {
+                font-size: 20px;
+            }
+
+            a.active,
+            a:hover {
+                border: none;
+                color: #3498db;
+            }
+
+            .contact-nav ul.show {
+                left: 0;
+
+            }
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+
+</head>
+
+<body>
+    <nav class="contact-nav">
+        <label class="logo">rayDeep</label>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact me</a></li>
+            <li><a href="#">Projects</a></li>
+        </ul>
+        <label id="icon">
+            <i class="fas fa-bars"></i>
+        </label>
+    </nav>
+    <script src="script/navbarScript.js"></script>
+
+</body>
+
+</html>

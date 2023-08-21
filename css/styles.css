@@ -1,0 +1,330 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: black;
+}
+/* Home section */
+#home-sec{
+    padding: 25px;
+    /* background-color: black; */
+    /* border: 1px solid white; */
+    height: 716px;
+}
+.container{
+    display: flex;
+}
+.mylogo{
+    width: 87px;
+    height: 59px;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: #F1F6F9;
+    text-decoration: none;
+}
+a:hover{
+    color: greenyellow;
+    
+}
+.nav-item{
+    display: inline-block;
+    margin-left: 18px;
+    font-size: 13px;
+}
+.navbar{
+    margin: 0 60px 0 16px;
+    font-family: 'Rubik', sans-serif;
+}
+.home-button{
+    position: relative;
+    left: 646px;
+}
+.button-59 {
+  align-items: center;
+  background-color: #000;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Rubik', sans-serif;
+  fill: #000;
+  font-size: 15px;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border: 1px solid #fff;
+}
+
+.button-59:focus {
+  color: #fff;
+}
+
+.button-59:hover {
+  border-color: greenyellow;
+  color: greenyellow;
+  fill: greenyellow;
+}
+
+.button-59:active {
+  border-color: greenyellow;
+  color: greenyellow;
+  fill: greenyellow;
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 135px;
+  }
+}
+/* Center heading container */
+.myImg{
+    width: 191%;
+    position: relative;
+    left: 47px;
+    bottom: 26%;
+    z-index: -1;
+}
+.center-heading{
+  display: flex;
+}
+.center-head-h1-name{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 166px;
+  margin: 0;
+
+}
+.center-head-h1-title{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 140px;
+  margin: 0;
+  letter-spacing: 18px;
+}
+.inside-head-container1{
+  margin-left: 44px;
+  margin-top: 149px;
+  letter-spacing: 17px;
+}
+.head-about-sm{
+  letter-spacing: 0;
+  font-family: 'Rubik', sans-serif;
+  width: 444px;
+  color: #C9CCD5;
+}
+
+
+
+/* About-me Section */
+.about-me-container1{
+  padding: 65px 65px 0 65px;
+}
+.about-me-h5{
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 100;
+  color: greenyellow;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+
+}
+.about-me-h2{
+  font-family: "Fira Sans", sans-serif;
+    font-size: 49px;
+    width: 576px;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px;
+
+}
+.hire-me-btn{
+  position: relative;
+  bottom: 140px;
+}
+.laptop-img{
+  position: relative;
+    left: 67%;
+    width: 178px;
+    bottom: 109px;
+}
+.about-me-desc-para{
+    width: 490px;
+    margin-left: 60%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+    color: #bdbfc5;
+}
+.about-me-desc{
+    z-index: -1;
+    position: relative;
+    bottom: 61px;
+}
+.about-exprience-projects{
+  display: flex;
+  position: relative;
+  left: 824px;
+  bottom: 33px;
+  z-index: -1;
+  width: 38%;
+}
+.h2-project-exprience{
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 8px;
+    margin-bottom: -10px;
+  }
+  .para-project-exprience{
+  font-family: 'Rubik', sans-serif;
+
+}
+.plusspan{
+  color: greenyellow;
+}
+.about-exprience-projects1{
+    margin: 0 64px 0 31px;
+    text-align: center;
+}
+.view-more{
+  position: relative;
+    left: 59%;
+    bottom: 76px;
+}
+.rotate-box1{
+  background-color: #3e6e0a;
+    height: 74px;
+    filter: blur(4px);
+    -webkit-filter: blur(2.8px);
+    transform: rotate(-5deg);
+}
+.rotate-h3-1{
+  padding: 13px;
+    text-align: center;
+    font-size: 45px;
+    color: #2a2828;
+    letter-spacing: 8px;
+    font-family: 'Lexend', sans-serif;
+}
+.rotate-box2{
+  position: relative;
+    bottom: 99px;
+    background-color: #81e315;
+    height: 74px;
+    transform: rotate(5deg);
+}
+.rotate-h3-2{
+  padding: 11px;
+    font-size: 45px;
+    color: black;
+    letter-spacing: 10px;
+    font-family: 'Lexend', sans-serif;
+}
+.projects-container{
+  display: flex;
+  justify-content: center;
+}
+.h5-project{
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+    color: greenyellow;
+    letter-spacing: 0.5px;
+    margin: 0 0 0 0;
+}
+.h3-project{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 50px;
+  width: 400px;
+  letter-spacing: 1px;
+  margin: 0 0 0 0;
+}
+.projects-title{
+  margin-right: 763px;
+}
+.projects-para-btn{
+  width: 178px;
+}
+.project-img-container{
+  display: flex;
+  justify-content: center;
+  margin: 127px 0 0 0;
+}
+.inside-project-img-container1{
+  margin-right: 20px;
+  text-align: center;
+}
+.project-img {
+  width: 493px;
+  height: 467px;
+  background-color: #2a2828;
+}
+.project-img:hover{
+  background-color: #3e3f3c;
+}
+.simon-game{
+  width: 636px;
+}
+.drum-kit{
+  width: 392px;
+}
+.dice-game{
+  width: 385px;
+}
+.project-para{
+  font-family: 'Rubik', sans-serif;
+}
+.project-img-para{
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  
+}
+.project-img-para:hover{
+  color: #81e315;
+}
+.project-last-container{
+  background-color: #81e315;
+}
+/* Colabortion section */
+.Collabortion-container{
+  text-align: center;
+  margin: 152px;
+}
+.Collabortion-container h5{
+  font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+    color: greenyellow;
+    letter-spacing: 0.5px;
+}
+.Collabortion-container h1{
+  font-family: 'Fira Sans', sans-serif;
+    font-size: 102px;
+    width: 66%;
+    margin-left: 207px;
+    margin-top: 0;
+    letter-spacing: 7px;
+    margin-bottom: 0;
+}
+.Collabortion-get-in-touch-btn{
+  background: #85d20f;
+    color: black;
+    font-weight: 700;
+    margin-right: 23px;
+    border: 0px;
+}
+.Collabortion-button-container{
+  margin: 22px 0 0 0;
+}
